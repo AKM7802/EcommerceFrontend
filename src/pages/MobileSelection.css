@@ -1,0 +1,32 @@
+.form-container{
+    display: grid;
+    grid-column-gap: 1rem;
+}
+
+.form-label{
+    grid-row: 1;
+}
+
+.form-select{
+    grid-row: 2;
+    user-select: none;
+}
+
+.form-select:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.form-submit{
+    grid-row:2;
+    background-color: rgb(246, 225, 184);
+    color: rgb(96, 76, 6);
+    font-weight: bold;
+    
+    
+    
+}
+
+.form-submit:hover{
+    background-image: linear-gradient(rgb(242, 212, 129),rgb(228, 169, 59));
+}

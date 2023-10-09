@@ -1,0 +1,15 @@
+.success-box-container{
+    position: fixed;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-brand);
+    padding: 0.6rem;
+    z-index: 800;
+   
+}
+
+.success-message{
+    font-size: 1rem;
+    color: #fff;
+}

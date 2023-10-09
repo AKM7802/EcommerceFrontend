@@ -1,0 +1,52 @@
+.checkout-page{
+    padding: 2rem 4rem;
+    width: 100% ;
+    display: flex;
+}
+
+.checkout-left{
+    background-color: aquamarine;
+    width: 60%;
+    padding: 4rem;
+}
+
+.checkout-section-1{
+    background-color: beige;
+    margin: 1rem 0;
+}
+
+.checkout-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.address-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-content{
+    position: relative;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem 0;
+}
+
+.address-label{
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    left: 8px;
+}
+
+.address-input{
+    height: 60px;
+    font-size: 16px;
+    padding: 0 8px;
+    outline: none;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid rgb(176, 176, 176);
+}

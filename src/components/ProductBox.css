@@ -1,0 +1,127 @@
+
+
+.product-container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    transition: all ease-in-out 0.1s;
+    margin:0.3rem;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgba(240, 240, 240, 0.774);
+    
+    
+}
+
+
+
+.product-container:hover{
+    cursor: pointer;
+    z-index: 100;
+    box-shadow: 1px 1px 4px 3px rgba(222, 222, 222, 0.908) ;
+}
+
+.product-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+            line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.product-container:hover > .product-details-container >.product-title{
+    color: rgb(100, 97, 97);
+}
+
+.product-box-image-container{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.product-details-container{
+    background-color: rgb(255, 255, 255);
+}
+.product-image{
+    height: 100%;
+    object-fit: cover;
+}
+
+.a-tag{
+   display: flex;
+   min-width: 16rem;
+}
+
+.material-container{
+    display: flex;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.hard-material-box{
+    margin-right: 8px;
+    background-color: rgba(255, 148, 41, 0.625);
+    padding: 3px;
+    font-weight: bold;
+    color: rgba(231, 127, 0, 0.995);
+}
+
+.glass-material-box{
+    margin-right: 8px;
+    background-color: rgba(237, 237, 117, 0.625);
+    padding: 3px;
+    font-weight: bold;
+    color: rgba(186, 170, 0, 0.874);
+}
+
+.similar-width{
+   height: 100%;
+   width: 18rem;
+   overflow-y: hidden;
+}
+
+.price-container{
+    align-self: flex-end;
+}
+
+.color-border0{
+    border-radius: 50%;
+    margin-right: 8px;
+    cursor: pointer;
+    padding: 0.2rem;
+    border: solid 2px rgba(0, 0, 0, 0);
+    margin-top: 4px;
+}
+
+.color-fill0{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border:1px solid rgb(216, 216, 216);
+}
+
+.product-box-discount{
+    margin-left: 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.product-box-discount > p{
+    background-color: rgb(142, 237, 0);
+    padding: 0 0.3rem;
+
+}
+
+@media only screen and (max-width:600px){
+    .product-details-container{
+        padding:0.2rem !important;
+    }
+}

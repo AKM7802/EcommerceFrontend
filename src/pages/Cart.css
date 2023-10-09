@@ -1,0 +1,110 @@
+.cart-page{
+    display: flex;
+    flex-direction: row;
+   background-image: linear-gradient(rgb(255, 255, 255),rgb(244, 244, 244));
+    padding: 3rem 6rem;
+    
+    min-height: 70vh;
+}
+.cart-container{
+    display:flex;
+    background-color: white;
+    flex-direction: column;
+    width: 70%;
+    box-shadow: 1px 1px 4px 1px rgba(90, 90, 90, 0.2);
+    
+}
+
+.cart-heading-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+    background-color: rgb(216, 165, 88);
+
+}
+.cart-heading{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+}
+.cart-price-title{
+   font-size: 1.2rem;
+}
+
+.cart-items-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* ----------------------------------------------------------------- */
+
+.price-details-outer-container{
+   
+    flex: 1;
+    padding-left: 1rem;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.price-sticky-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 6rem;
+    width: 100%;
+    min-height: 47px;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,.2);
+    overflow: hidden;
+}   
+
+.price-details-heading-container{
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: gray;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.price-distribution-container{
+    padding: 0rem 1rem;
+}
+
+.price-details-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+}
+
+.cart-place-order-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    background-color:rgb(216, 165, 88) ;
+    
+}
+
+.cart-place-order{
+    width: 100%;
+    height: 100%;
+    padding: 0.6rem;
+}
+
+@media screen and (max-width:600px) {
+    .cart-page{
+        flex-direction: column;
+        padding: 1rem;
+        min-height: 40vh;
+    } 
+    .cart-container{
+        width: 100%;
+    }
+}
